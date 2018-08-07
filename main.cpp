@@ -2,7 +2,7 @@
 #include "./MS_files/1/Sales_item.h"
 
 using namespace std;
-
+int aaa;
 int main()  
 {
 	// Sales_item curItem, val;
@@ -30,5 +30,9 @@ int main()
 	cout << i - u << endl;		// 0
 	cout << u - i << endl;		// 0
 
+	string asd("ssssaasdfasd");
+
+	cout << asd << endl;
+	cout << aaa << endl;
 	return 0;
 }
