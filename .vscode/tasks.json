@@ -6,7 +6,7 @@
     {
       "label": "compile && run",
       "type": "shell",
-      "command": "g++ ./main.cpp -o main.exe && ./main.exe",
+      "command": "g++ ./main.cpp -o main.exe -std=c++0x && ./main.exe",
       "group": {
         "kind": "build",
         "isDefault": true
@@ -22,7 +22,7 @@
     {
       "label": "compile",
       "type": "shell",
-      "command": "g++ ./main.cpp -o main.exe",
+      "command": "g++ ./main.cpp -o main.exe -std=c++0x",
       "presentation": {
         "echo": true,
         "reveal": "always",
